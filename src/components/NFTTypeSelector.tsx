@@ -11,11 +11,11 @@ const NFT_TYPES = [
     'Video Content',
     'Virtual Real Estate',
     'Gaming Assets',
-    'Sports Memorabilia',
+    'Membership Card',
+    'Event Tickets',
     'Domain Names',
     'Fashion and Wearables',
     'Literature and Written Content',
-    // Add more types as needed
 ];
 
 const NFTTypeSelector: React.FC<NFTTypeSelectorProps> = ({ onSelect }) => {
